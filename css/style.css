@@ -479,7 +479,7 @@ div {
 /* Introduction Section */
 
 .introduction {
-  background-image: url('first-background.jpg');
+  background-image: url('http://thinkful-ed.github.io/karma-clone/img/first-background.jpg');
   background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
