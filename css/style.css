@@ -519,3 +519,30 @@ button:hover {
   background-color: #d9400e;
   cursor: pointer;
 }
+
+/* Cases Section */
+
+.cases {
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+}
+
+.content h2 {
+  margin-top: 120px;
+  font-size: 40px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+.cases .device-group {
+  display: flex;
+  margin-bottom: 150px;
+}
+
+.cases .devices {
+  width: 33.3333333333%;
+  display: inline-block;
+  height: 100%;
+}
+
