@@ -527,22 +527,69 @@ button:hover {
   color: #000;
   text-align: center;
 }
-
 .content h2 {
   margin-top: 120px;
   font-size: 40px;
   font-weight: 300;
   margin-bottom: 30px;
 }
-
 .cases .device-group {
   display: flex;
   margin-bottom: 150px;
 }
-
 .cases .devices {
   width: 33.3333333333%;
   display: inline-block;
   height: 100%;
 }
+.cases h3 {
+  font-weight: 500;
+}
 
+/* Footer Section */
+
+.social {
+  text-align: center;
+  margin-bottom: 200px;
+  background-color: #fff;
+}
+.social hr {
+  display: block;
+  border: 0;
+  border-top: 1px solid #eaebec;
+  margin: 1.313rem 0;
+}
+.social h4 {
+  color: #000;
+  font-weight: 400;
+}
+.icons ul {
+  list-style: none;
+  text-align: center;
+}
+.icons li {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  border: 1px solid #eaebec;
+  padding: 0.625rem 0;
+  margin:1px 5px;
+}
+.icons li:hover {
+  cursor: pointer;
+}
+.icons .twitter {
+  color:#55acee;
+}
+.icons .facebook {
+  color:#4c66a4;
+}
+.icons .instagram {
+  color:#3f729b;
+}
+.social .copy {
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: #838994;
+}
