@@ -437,7 +437,7 @@ body {
   background-color: LightGrey;
 }
 div {
-  border: 1px solid Chocolate;
+  border: 1px solid white;
 }
 /* Navigation Section */
 .top-navigation {
@@ -487,10 +487,13 @@ div {
 }
 
 .introduction h1 {
-  margin-top: 200px;
+  margin-top: 250px;
   font-size: 3.125rem;
 }
-
+.introduction h3 {
+  font-size: 1.5rem;
+  margin-top: -20px;
+}
 .introduction h1, .introduction h3 {
   color: white;
   text-align: center;
@@ -506,7 +509,7 @@ div {
   display: block;
   margin: 0 auto;
   margin-bottom: 200px;
-  margin-top: 30px;
+  margin-top: 10px;
   color: white;
   font-weight: 300;
   text-shadow: none;
@@ -549,15 +552,16 @@ button:hover {
 /* Footer Section */
 
 .social {
-  text-align: center;
-  margin-bottom: 200px;
   background-color: #fff;
+  text-align: center;
+  padding-bottom: 200px;
 }
 .social hr {
   display: block;
   border: 0;
   border-top: 1px solid #eaebec;
-  margin: 1.313rem 0;
+  margin: 1.313rem auto;
+  width: 930px;
 }
 .social h4 {
   color: #000;
